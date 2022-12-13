@@ -14,5 +14,8 @@ make all
 
 # Future work 
 
-Parallelize using CUDA
+Parallelize using CUDA 
+
 Extend the code to work for games larger than two players (I extended experiment to a three player game)
+
+Optimize code to evaluate 5 and 7 card hands
