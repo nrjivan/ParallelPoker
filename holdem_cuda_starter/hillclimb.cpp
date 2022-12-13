@@ -9,7 +9,9 @@ Position::~Position() {}
 
 /* Check all neighbors, and use the largest for the next step. 
  * Terminate early if no neighbors are larger. 
- * position pointer owned by when i call in neighbors */
+ * position pointer owned by when i call in neighbors 
+ * Parallelize using CUDA
+ */
 Position* hillclimb(Position* posn, const int numSteps) {
    double value = posn->value(), nextValue;
    int i;
