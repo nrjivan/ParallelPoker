@@ -1,6 +1,6 @@
 # ParallelPoker
 
-Inspired by Jeremy Kun and his blog on the intersection between Math and Programming. 
+Inspired by Jeremy Kun and his blog on the intersection between Math and Programming. https://jeremykun.com/
 
 Failed to convert serial code to CUDA, although I think I was rather close.
 
